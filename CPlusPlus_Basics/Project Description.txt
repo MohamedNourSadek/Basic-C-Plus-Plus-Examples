@@ -1,5 +1,2 @@
-This is simple a bunch of files that i'm trying to learn the basics
-of C++ from this book "C++ Primer by Stanley B. Lippman, Josée Lajoie, Barbara E. Moo 5th Edition"
-
-In this project i will try out example in the book.
-
+Learning Basics of C++ from a Text Book.
+C++ Primer by Stanley B. Lippman, Josée Lajoie, Barbara E. Moo 5th Edition.
