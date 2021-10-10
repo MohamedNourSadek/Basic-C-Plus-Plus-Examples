@@ -1,7 +1,9 @@
 #include <iostream>
 
+
 int main()
 {
+
 	int x = 0;
 	std::cin >> x;
 	return 0;
@@ -85,8 +87,19 @@ void WeirdNaming()
 void Using_References()
 {
 	int y = 50;
-	int &z = y; //a reference must be initialised and can't be modified later
+	int &z = y; //a reference must be initialized and can't be modified later
 	z = 40;
 
 	std::cout << y;
 }
+
+void Using_Pointer()
+{
+	int y = 40;
+	int *p;
+	p = &y;
+	*p = 1;
+
+	std::cout << y;
+}
+
