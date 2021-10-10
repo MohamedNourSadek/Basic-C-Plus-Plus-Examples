@@ -2,8 +2,6 @@
 
 int main()
 {
-
-
 	int x = 0;
 	std::cin >> x;
 	return 0;
@@ -14,7 +12,7 @@ int main()
 // Simple recieve two numbers and output the sum
 void SimpleIO()
 {
-	std::cout << "Give me two numbers bitch";
+	std::cout << "Give me two numbers";
 	std::cout << std::endl;
 
 	int x = 0;
@@ -67,4 +65,28 @@ void For_App()
 		sum += y;
 	std::cout << sum;
 
+}
+
+//test loss of data in conversion
+void Data_Conversion()
+{
+	float y = 1.99f;
+	int z = y;
+
+	std::cout << z;
+}
+
+void WeirdNaming()
+{
+	int _ = 2;
+	std::cout << _;
+}
+
+void Using_References()
+{
+	int y = 50;
+	int &z = y; //a reference must be initialised and can't be modified later
+	z = 40;
+
+	std::cout << y;
 }
