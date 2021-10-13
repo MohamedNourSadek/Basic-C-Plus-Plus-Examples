@@ -1,5 +1,11 @@
 #pragma once
+#include <iostream>
+#include <string>
+#include <vector>
 
+using std::cin;
+using std::cout;
+using std::string;
 
 // Simple recieve two numbers and output the sum
 void SimpleIO()
@@ -127,4 +133,30 @@ void Testing_a_DataType()
 
 }
 
+void Test_Using()
+{
+	int x = 0;
+	cout << "enter any thing";
+	cin >> x;
+	cout << x;
+}
 
+void Testing_String()
+{
+	string y = "test text";
+	cout << y;
+}
+
+void getLine_String_functiontest()
+{
+	string s;
+	std::getline(cin, s);
+
+	if (s.empty())
+		cout << "you didn't enter anything";
+	else
+		for (auto r : s)
+			cout << r << "\n";
+
+	cout << s.size();
+}
