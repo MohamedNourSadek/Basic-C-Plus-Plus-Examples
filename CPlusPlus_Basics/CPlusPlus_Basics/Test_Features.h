@@ -6,6 +6,7 @@
 using std::cin;
 using std::cout;
 using std::string;
+using std::vector;
 
 // Simple recieve two numbers and output the sum
 void SimpleIO()
@@ -160,3 +161,29 @@ void getLine_String_functiontest()
 
 	cout << s.size();
 }
+
+void Vector_test()
+{
+	vector<int> v = { 1,2,3 };
+
+	v.push_back(4);
+
+	for (int i : v)
+		cout << i << "\n";
+
+	for (int i : v)
+		cout << &i << "\n";
+}
+
+void Iterator_Test()
+{
+	vector<int> v = { 1, 2, 3 };
+
+	auto it = v.begin();
+	*it = 13;
+	cout << *it;
+	it++;
+	cout << *it;
+
+}
+

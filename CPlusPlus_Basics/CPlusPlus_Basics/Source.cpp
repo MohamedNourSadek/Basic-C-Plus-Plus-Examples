@@ -12,10 +12,9 @@ using std::vector;
 
 int main()
 {
-	vector<int> v = { 1,2,3 };
-	for (int i : v)
-		cout << i << "\n";
-
+	Iterator_Test();
+	  
+	 
 	std::getchar(); //stop cmd from closing.
 	return 0;
 }
