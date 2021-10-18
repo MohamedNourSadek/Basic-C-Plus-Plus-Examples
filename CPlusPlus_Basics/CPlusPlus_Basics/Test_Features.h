@@ -219,3 +219,9 @@ void SizeOf_Test()
 
 	cout << sizeof(i);
 }
+
+void Explicit_Cast()
+{
+	int i = 3;
+	cout << static_cast<double>(i) / 2;
+}

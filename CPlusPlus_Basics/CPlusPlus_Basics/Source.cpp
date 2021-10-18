@@ -12,7 +12,7 @@ using std::vector;
 
 int main()
 {
-	SizeOf_Test(); 
+	Explicit_Cast();
 	     
 	std::getchar(); //stop cmd from closing.
 	return 0;
