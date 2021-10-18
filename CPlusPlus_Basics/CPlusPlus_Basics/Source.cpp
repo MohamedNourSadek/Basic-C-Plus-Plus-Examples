@@ -12,9 +12,8 @@ using std::vector;
 
 int main()
 {
-	Iterator_Test();
-	  
-	 
+	Array_Pointers();
+
 	std::getchar(); //stop cmd from closing.
 	return 0;
 }
