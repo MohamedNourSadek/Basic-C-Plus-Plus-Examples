@@ -201,3 +201,21 @@ void Array_Pointers()
 	for (int i : arr)
 		cout << &i << "\n";
 }
+
+//An expression that isn't guaranteed that it will compile i before i++ so, it could be (0,1) or (1,0).
+void Undefined_Expression()
+{
+	int i = 0;
+	cout << i << "," << i++;
+}
+
+void SizeOf_Test()
+{
+	vector<int> i = { 1,2,3 ,4,4,4,5,5,5,5,1,2,3 ,4,4,4,5,5,5,5};
+	
+
+	for (int x = 0; x <= i.size() - 1; ++x)
+		cout << &i[x] << "\n";
+
+	cout << sizeof(i);
+}

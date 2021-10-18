@@ -12,8 +12,8 @@ using std::vector;
 
 int main()
 {
-	Array_Pointers();
-
+	SizeOf_Test(); 
+	     
 	std::getchar(); //stop cmd from closing.
 	return 0;
 }
