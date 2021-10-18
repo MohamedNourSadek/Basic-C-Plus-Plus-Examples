@@ -8,7 +8,7 @@ using std::cout;
 using std::string;
 using std::vector;
 
-// Simple recieve two numbers and output the sum
+// Simple recieve two numbers and output the sum s
 void SimpleIO()
 {
 	std::cout << "Give me two numbers";
