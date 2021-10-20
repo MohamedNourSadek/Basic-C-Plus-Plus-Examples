@@ -220,8 +220,31 @@ void SizeOf_Test()
 	cout << sizeof(i);
 }
 
-void Explicit_Cast()
+void Explicit_Cat()
 {
 	int i = 3;
 	cout << static_cast<double>(i) / 2;
+}
+
+void Switch_Test()
+{
+	int i = 0;
+	char x;
+	cin >> x;
+
+
+	switch (x)
+	{
+	case 'i':
+		i = 1;
+		break;
+	case 's':
+		i = 2;
+		break;
+	default:
+		i = 10;
+		break;
+	}
+
+	cout << i;
 }

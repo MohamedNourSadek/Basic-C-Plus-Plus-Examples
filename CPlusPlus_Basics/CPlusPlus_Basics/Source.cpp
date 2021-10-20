@@ -12,8 +12,9 @@ using std::vector;
 
 int main()
 {
-	Explicit_Cast();
-	     
+	Switch_Test();
+	
+
 	std::getchar(); //stop cmd from closing.
 	return 0;
 }
