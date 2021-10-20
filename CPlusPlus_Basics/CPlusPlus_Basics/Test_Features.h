@@ -248,3 +248,23 @@ void Switch_Test()
 
 	cout << i;
 }
+
+void print(string s)
+{
+	cout << s;
+}
+
+//concept of using reference as an arguement
+void negate(int& num)
+{
+	num = -num;
+}
+
+void Overload_x(string s)
+{
+	cout << s;
+}
+void Overload_x(int i)
+{
+	cout << i;
+}

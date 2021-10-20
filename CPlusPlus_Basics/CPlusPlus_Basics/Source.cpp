@@ -12,8 +12,8 @@ using std::vector;
 
 int main()
 {
-	Switch_Test();
-	
+	Overload_x(1);
+	Overload_x("d");
 
 	std::getchar(); //stop cmd from closing.
 	return 0;
