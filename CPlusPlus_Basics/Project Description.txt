@@ -1,2 +1,0 @@
-Learning Basics of C++ from a Text Book.
-C++ Primer by Stanley B. Lippman, Josée Lajoie, Barbara E. Moo 5th Edition.
