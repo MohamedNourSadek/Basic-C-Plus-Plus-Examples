@@ -259,7 +259,7 @@ void negate(int& num)
 {
 	num = -num;
 }
-
+ 
 void Overload_x(string s)
 {
 	cout << s;
