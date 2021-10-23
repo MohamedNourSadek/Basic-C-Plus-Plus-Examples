@@ -1,4 +1,6 @@
-# Basic C++ Examples.
+## C++ Basics Example
 
-In this repo i add library files which contain examples that i have created while learning basics of the C++ language, which could be used later to revise those concepts.
-
+ Goals:
+ - Learn the basics of C++ programming language.
+ - Document learned concepts by an example (a function/class/etc.)
+ - Used as a way to revise those concepts in the future.
