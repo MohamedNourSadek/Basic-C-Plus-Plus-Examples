@@ -1,0 +1,9 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/CPlusPlus_Basics/.vs
+/CPlusPlus_Basics/CPlusPlus_Basics/Debug
+/CPlusPlus_Basics/testkey.pub
+/CPlusPlus_Basics/testkey
+/.vs
