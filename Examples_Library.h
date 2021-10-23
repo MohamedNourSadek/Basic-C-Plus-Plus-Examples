@@ -19,7 +19,7 @@ void SimpleIO()
 
 	std::cin >> x;
 	std::cin >> y;
-	std::cout << "The sum is : " << x * y;
+	std::cout << "The sum is : " << x + y;
 
 
 }
@@ -268,3 +268,4 @@ void Overload_x(int i)
 {
 	cout << i;
 }
+
