@@ -7,7 +7,7 @@ using std::cin;
 using std::cout;
 using std::string;
 using std::vector;
-
+ 
 // Simple recieve two numbers and output the sum s
 void SimpleIO()
 {
