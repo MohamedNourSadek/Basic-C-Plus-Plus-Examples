@@ -12,6 +12,7 @@ using std::vector;
 
 int main()
 {
+
 	std::getchar(); //stop cmd from closing.
 	return 0;
 }
