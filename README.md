@@ -1,4 +1,4 @@
-## C++ Basics Example
+## Goals and Motivation
 
  Goals:
  - Learn the basics of C++ programming language.
