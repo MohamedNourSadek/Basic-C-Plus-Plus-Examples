@@ -21,8 +21,6 @@ void SimpleIO()
 	std::cin >> x;
 	std::cin >> y;
 	std::cout << "The sum is : " << x + y;
-
-
 }
 
 // While app (sum numbers from 50 to 100)
@@ -35,7 +33,6 @@ void While_App1()
 		sum += y;
 		y++;
 	}
-
 	std::cout << "sum is : " << sum;
 }
 
@@ -47,15 +44,12 @@ void While_App2()
 	std::cin >> y;
 	std::cout << "Enter the second number : ";
 	std::cin >> z;
-
 	int range = z - y;
-
 	while (range >= 0)
 	{
 		std::cout << "Number is: " << z - range << "\n";
 		range--;
 	}
-
 }
 
 void For_App()
@@ -64,7 +58,6 @@ void For_App()
 	for (int y = 0; y <= 3; y++)
 		sum += y;
 	std::cout << sum;
-
 }
 
 //test loss of data in conversion
