@@ -1,3 +1,0 @@
-﻿  Source.cpp
-C:\Users\Nour\Documents\LearningCPlusPlus\CPlusPlus_Basics\CPlusPlus_Basics\Source.cpp(3,1): warning C4326: return type of 'main' should be 'int' instead of 'float'
-  CPlusPlus_Basics.vcxproj -> C:\Users\Nour\Documents\LearningCPlusPlus\CPlusPlus_Basics\x64\Debug\CPlusPlus_Basics.exe
