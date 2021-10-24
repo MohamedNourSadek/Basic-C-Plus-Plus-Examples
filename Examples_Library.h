@@ -8,7 +8,7 @@ using namespace std;
  
 
 //Examples of define
-#define Debug(x) cout << x << endl
+#define Debug(x) cout << x << endl;
 
 // Simple recieve two numbers and output the sum s
 void SimpleIO()
