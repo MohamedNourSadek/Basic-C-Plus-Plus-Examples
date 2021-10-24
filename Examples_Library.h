@@ -99,6 +99,14 @@ void Using_Pointer()
 	cout << y;
 }
 
+//testing memory locations to which pointers point to (using breakpoints)
+void Using_Pointer_2()
+{
+	char* x = new char[8];
+	memset(x, 1, 8);
+	delete[] x;
+}
+
 //testing the auto type keyword
 void Using_Auto()
 {
