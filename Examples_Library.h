@@ -1,12 +1,16 @@
 //Example of preprocessors
+
+#if  1
 #pragma once
 #include <iostream>
 #include <string>
 #include <vector>
+#endif 
 
+
+//Example of using
 using namespace std;
  
-
 //Examples of define
 #define Debug(x) cout << x << endl;
 
@@ -201,7 +205,7 @@ void Undefined_Expression()
 void SizeOf_Test()
 {
 	vector<int> i = { 1,2,3 ,4,4,4,5,5,5,5,1,2,3 ,4,4,4,5,5,5,5};
-	for (int x = 0; x <= i.size() - 1; ++x)
+	for (unsigned int x = 0; x <= i.size() - 1; ++x)
 		cout << &i[x] << "\n";
 	cout << sizeof(i);
 }
