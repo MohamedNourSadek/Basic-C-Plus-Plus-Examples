@@ -133,6 +133,22 @@ void Testing_a_DataType()
 	cout << "x is : " << tests.x << ", y is : " << tests.y;
 }
 
+//testing a basic class
+struct Vector2 { int x = 0, y = 0; };
+class Player
+{
+public:
+	int PosX;
+	int PosY;
+	int Speed;
+	
+	void Move(Vector2& direction)
+	{
+		PosX += direction.x*Speed;
+		PosY += direction.y*Speed;
+	}
+};
+
 //testing using cout instead of std::cout
 void Test_Using()
 {
