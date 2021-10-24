@@ -85,7 +85,7 @@ void Using_References()
 {
 	int y = 50;
 	int& z = y; //a reference must be initialized and can't be modified later
-	z = 40;
+	z = 40; // z is another name for y
 	cout << y;
 }
 
