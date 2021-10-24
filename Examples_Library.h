@@ -84,7 +84,7 @@ void Using_References()
 //testing pointers
 void Using_Pointer()
 {
-	int y = 40;
+	int y = 40; 
 	int* p;
 	p = &y;
 	*p = 1;
