@@ -1,15 +1,19 @@
+//Example of preprocessors
 #pragma once
 #include <iostream>
 #include <string>
 #include <vector>
 
 using namespace std;
+ 
+
+//Examples of define
+#define Debug(x) cout << x << endl
 
 // Simple recieve two numbers and output the sum s
 void SimpleIO()
 {
-	cout << "Give me two numbers";
-	cout <<  endl;
+	Debug("Give me two numbers");
 
 	int x = 0;
 	int y = 0;
