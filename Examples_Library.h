@@ -286,3 +286,19 @@ void Overload_x(int i)
 	cout << i;
 }
 
+
+//trying out enums
+enum typeOfError { ty_Error, ty_Warning, ty_Log };
+void Log_Message(string message,typeOfError ty)
+{
+	string s;
+
+	if (ty == ty_Error)
+		s = "[Error]";
+	else if (ty == ty_Warning)
+		s = "[Warning]";
+	else if (ty == ty_Log)
+		s = "[Log]";
+
+	cout << s << " : " << message << endl;
+}
