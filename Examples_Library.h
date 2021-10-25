@@ -155,6 +155,7 @@ public:
 		PosY = y;
 		Speed = _speed;
 	}
+
 	void Move(Vector2& direction)
 	{
 		PosX += direction.x*Speed;
