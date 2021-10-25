@@ -137,11 +137,24 @@ void Testing_a_DataType()
 struct Vector2 { int x = 0, y = 0; };
 class Player
 {
+
 public:
 	int PosX;
 	int PosY;
 	int Speed;
-	
+
+	Player(int x, int y)
+	{
+		PosX = x;
+		PosY = y;
+		Speed = 0;
+	}
+	Player(int x, int y, int _speed)
+	{
+		PosX = x;
+		PosY = y;
+		Speed = _speed;
+	}
 	void Move(Vector2& direction)
 	{
 		PosX += direction.x*Speed;
